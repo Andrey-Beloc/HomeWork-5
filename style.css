@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    max-width: 1540px;
+    min-width: 1500px;
+    max-height: 1080px;
+}
+.main-block{
+    position: relative;
+    width: 100%; 
+}
+
+.main-bg img{    
+      width: 100%;
+}
+
+.auto img{
+    z-index: 1;
+    position: absolute;
+    top: 423px;
+    right: 128px;
+}
+
+.human img{
+    width: 150px;
+    height: 188px;
+    position: absolute;
+    top: 437px;
+    right: 344px;
+    z-index: 2;
+}
+
+.avia img{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    right: 265px;
+    z-index: 2;
+}
